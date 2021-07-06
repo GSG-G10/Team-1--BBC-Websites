@@ -106,3 +106,21 @@ html {
 }
 
 
+
+/*------------- NAV BAR RESPOSIVE ------------*/
+
+/*- small tablet to big tablet -*/
+@media (max-width: 1024px) {
+    
+    .logo-container {
+        width: 90px;
+        height: 60px;
+    }
+    .link {
+        font-size: 1.3rem;
+    }
+}
+
+/*- small phone to 768 -*/
+
+
