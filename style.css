@@ -22,7 +22,17 @@ html {
     display: flex;
 }
 
+
+/*------------- NAV BAR STYLING ------------*/
+
 .header-nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 99;
+    transition: background-color 250ms ease-in;
+
     width: 100vw;
     background-color: var(--primary-color);
     justify-content: space-between;
@@ -30,6 +40,11 @@ html {
     height: 90px;
 
 }
+
+.nav-scrolled {
+    background-color: white;
+}
+
 
 .logo-container {
     width: 100px;
@@ -40,36 +55,47 @@ html {
 .img-logo{
     width: 100%;
     height: 100%;
-    object-fit: contain;
-    
+    object-fit: contain;  
+}
+
+.logo-black{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;     
+    display: none; 
 }
 
 .header-nav ul {
     list-style: none;
     justify-content: space-around;
     width: 60%;
-    
-
 }
 
-
-
-.header-nav ul li a {
+.link {
     text-decoration: none;
     color: var(--font-color);
     font-size: 1.5rem;
     padding: 5px;
     border-bottom: none;
     transition: border-bottom 1s, color;
-
-
 }
 
-.header-nav ul li a:hover {
+.link-scrolled { 
+    color: var(--primary-color);
+    transition: border-bottom 1s, color;
+}
+
+
+.link:hover {
     border-bottom: 2px solid var(--hover-color);
     color: var(--hover-color);
 }
 
+.link-scrolled:hover {
+    border-bottom: 2px solid #004888;
+    color: #004888;
+
+}
 
 
 
