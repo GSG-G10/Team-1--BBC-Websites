@@ -37,7 +37,7 @@ html {
     background-color: var(--primary-color);
     justify-content: space-between;
     align-items: center;
-    height: 90px;
+    height: 5.625rem;
 
 }
 
@@ -47,9 +47,9 @@ html {
 
 
 .logo-container {
-    width: 100px;
-    height: 70px;
-    margin-left: 50px;
+    width: 6.25rem;
+    height: 4.375rem;
+    margin-left: 3.125rem;
 }
 
 .img-logo,.logo-black{
@@ -72,7 +72,7 @@ html {
     text-decoration: none;
     color: var(--font-color);
     font-size: 1.5rem;
-    padding: 5px;
+    padding: 0.3125rem;
     border-bottom: none;
     transition: border-bottom 1s, color;
 }
@@ -96,19 +96,14 @@ html {
 
 .section-main{
     width: 100vw;
-    height: 600px;
+    height: 37.5rem;
     background-color: aquamarine;
-}
-.section-news{
-    width: 100vw;
-    height: 1500px;
-    background-color: rgb(33, 43, 39);
 }
 
 .mobile-nav-icon {
     color:white;
     display: none;
-    margin-right: 20px;
+    margin-right: 1.25rem;
     cursor: pointer; 
 }
 
@@ -125,8 +120,8 @@ html {
 @media (max-width: 1024px) {
     
     .logo-container {
-        width: 90px;
-        height: 60px;
+        width: 5.625rem;
+        height: 3.75rem;
 
     }
     .link {
@@ -137,9 +132,9 @@ html {
 /*- small phone to 768 -*/
 @media (max-width: 768px) {
     .logo-container {
-        width: 50px;
-        height: 50px;
-        margin-left: 20px;
+        width: 3.125rem;
+        height: 3.125rem;
+        margin-left: 1.25rem;
     }
 
     #ulMob {
@@ -171,7 +166,7 @@ html {
     }
 
     .header-nav{
-        height: 60px;
+        height: 3.75rem;
     }
 
     .active-nav {
@@ -182,5 +177,6 @@ html {
 
 }
 
+/***********END NAVBAR ----------------*/
 
 
