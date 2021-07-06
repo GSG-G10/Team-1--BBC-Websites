@@ -105,6 +105,18 @@ html {
     background-color: rgb(33, 43, 39);
 }
 
+.mobile-nav-icon {
+    color:white;
+    display: none;
+    margin-right: 20px;
+    cursor: pointer; 
+}
+
+.material-icons {
+    font-size: 2.5rem !important;
+}
+
+
 
 
 /*------------- NAV BAR RESPOSIVE ------------*/
@@ -115,6 +127,7 @@ html {
     .logo-container {
         width: 90px;
         height: 60px;
+
     }
     .link {
         font-size: 1.3rem;
@@ -122,5 +135,52 @@ html {
 }
 
 /*- small phone to 768 -*/
+@media (max-width: 768px) {
+    .logo-container {
+        width: 50px;
+        height: 50px;
+        margin-left: 20px;
+    }
+
+    #ulMob {
+        margin-top: 7rem; 
+    }
+    .header-nav ul {
+        display: none;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        align-content: flex-end;
+        width: 95%;
+        height: 100vh;
+        transition: display 1s ease-in;
+        margin-top: 0 !important;
+
+    }
+
+    .link{
+        border-bottom: 2px solid #b5d2ec;
+
+    }
+    .mobile-nav-icon{
+        display: block;
+    }
+
+    .active {
+        display: flex !important;
+    }
+
+    .header-nav{
+        height: 60px;
+    }
+
+    .active-nav {
+        height: 100%;
+        align-items: flex-start;
+    }
+
+
+}
+
 
 
