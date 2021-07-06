@@ -1,0 +1,43 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color: #011b32;
+    --font-color: white;
+    --hover-color: #b5d2ec;
+}
+
+html {
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.flex {
+    display: flex;
+}
+
+footer {
+    background-color: var(--primary-color);
+}
+
+.nav-footer-link ul {
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-footer-link ul li {
+    list-style: none;
+    list-style: none;
+    padding: 12px;
+    text-transform: capitalize;
+}
+
+.nav-footer-link ul li a {
+    text-decoration: none;
+    font-size: 1.3rem;
+    color: var(--font-color)
+}
