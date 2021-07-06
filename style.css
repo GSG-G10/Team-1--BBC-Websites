@@ -52,16 +52,13 @@ html {
     margin-left: 50px;
 }
 
-.img-logo{
+.img-logo,.logo-black{
     width: 100%;
     height: 100%;
     object-fit: contain;  
 }
 
-.logo-black{
-    width: 100%;
-    height: 100%;
-    object-fit: contain;     
+.logo-black{     
     display: none; 
 }
 
@@ -82,7 +79,7 @@ html {
 
 .link-scrolled { 
     color: var(--primary-color);
-    transition: border-bottom 1s, color;
+    transition: border-bottom 1s color;
 }
 
 
@@ -97,5 +94,15 @@ html {
 
 }
 
+.section-main{
+    width: 100vw;
+    height: 600px;
+    background-color: aquamarine;
+}
+.section-news{
+    width: 100vw;
+    height: 1500px;
+    background-color: rgb(33, 43, 39);
+}
 
 
