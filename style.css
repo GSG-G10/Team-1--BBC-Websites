@@ -7,8 +7,9 @@ html {
     box-sizing: border-box;
     padding: 0;
     margin: 0; 
+    
 }
-/* Start news section */
+/* START news section */
 .container{
     display: flex;
     justify-content:space-around;
@@ -26,6 +27,7 @@ html {
 .main-title{
     width: 100%;    
     padding: 50px 50px 25px  15px;
+    font-size: 2rem;
 }
 .article{
     position: relative;
@@ -36,6 +38,7 @@ html {
     margin: 1%;
 }
 
+
 .article img{
     display: block; 
     max-width: 100%;
@@ -44,15 +47,16 @@ html {
     min-height: 100%;
     object-fit: cover;
 }
+
 .title {
     position: absolute;
     bottom: 0;
-    background: rgba(0, 0, 0, 0.2);
+    background: rgba(0, 0, 0, 0.3);
     transition: .5s ease;
     opacity: 0;
     color: white;
-    font-size: 20px;
-    text-align: end;
+    font-size: 1rem;
+    text-align: left;
     opacity: 1;
     max-width: 100%;
     max-height: 100%;
@@ -60,8 +64,31 @@ html {
     min-height: 100%;
     align-items: flex-end;
     display: flex;
-    padding: 1rem;
+    padding: 1em;
   }
+
+
+
+
   
-/* End news section */
-  
+/* END news section */
+
+
+/* START responsive news section */
+@media screen and (max-width: 425px) {
+    html{
+        font-size: 13px;
+    }
+    .article{
+        width: 100%;
+    }
+
+
+
+.main-title{
+    font-size: 2.8rem;
+    padding: 50px 50px 25px  0px;
+}
+}
+
+/* END responsive news section */
