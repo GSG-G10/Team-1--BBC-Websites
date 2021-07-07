@@ -129,7 +129,28 @@ footer {
 }
 
 footer .copywrite {
-    padding-botoom: 10px;
-    border-top: 1px solid rgb(136, 132, 132, .5);
+    padding-bottom: 10px;
+    border-top: .1rem solid rgb(136, 132, 132, .5);
     padding-bottom: 20px;
+}
+
+@media screen and (max-width:480px) {
+    body {
+        background-color: red;
+        width: 100%;
+    }
+    footer {
+        width: 100%;
+    }
+    footer .nav-footer-link ul {
+        flex-direction: column;
+        border-bottom: .1rem solid rgb(136, 132, 132, .5);
+    }
+    footer .nav-footer-link ul li a,
+    .copywrite {
+        font-size: 1rem;
+    }
+    .nav-footer-social-icon ul li a {
+        widyh: 45px;
+    }
 }
