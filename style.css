@@ -22,6 +22,7 @@ html {
 
 footer {
     background-color: var(--primary-color);
+    width: 100%;
 }
 
 .nav-footer-link ul {
@@ -40,6 +41,10 @@ footer {
     text-decoration: none;
     font-size: 1.3rem;
     color: var(--font-color)
+}
+
+.nav-footer-link ul li a:hover {
+    color: var(--hover-color);
 }
 
 .nav-footer-social-icon ul {
