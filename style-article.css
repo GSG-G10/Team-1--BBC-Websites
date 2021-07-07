@@ -14,7 +14,7 @@
 
 
 .article-container{
-    height: 370vh;
+    height: 421vh;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -82,7 +82,7 @@ article-image{
     }
 
     body{
-        margin-top: -19%;
+        margin-top: 0% !important;
     }
 
     .article-image{
@@ -113,12 +113,6 @@ article-image{
         font-size: 1.6rem;
         line-height: 25px;
     }
-
-    .article-image{
-        margin-top: -39%;
-    }
-
-
 }
 
 @media screen and (max-width: 320px){
@@ -129,3 +123,16 @@ article-image{
 
 /* End Media Query for article page */
 
+/* override */
+
+.section-main {
+    width: 100%;
+    height: auto;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 5rem !important;
+}
+
+
+
+/* overide */
