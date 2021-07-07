@@ -1,3 +1,4 @@
+
     * {
         margin: 0px;
         padding: 0px;
@@ -92,6 +93,7 @@
         border-bottom: 2px solid #004888;
         color: #004888;
     }
+
 
     .mobile-nav-icon {
         color: white;
@@ -282,11 +284,12 @@
         width: 70% !important;
 
     }
-
+   
     .most-read{
-        width: 80% !important;
+      width: 80% !important;
+   }
 
-    }
+
 
 }
 /*- 768 to 960 -*/
