@@ -4,6 +4,8 @@
     box-sizing: border-box;
 }
 
+/* Start Style article page */
+
 .article-main-heading{
     display: flex;
     flex-direction: column;
@@ -54,3 +56,57 @@ article-image{
     text-align: justify;
 }
 
+.article-related{
+    display: flex;
+    flex-direction: column;
+    margin-top: 2%;
+    line-height: 35px;
+}
+
+.article-keep-reading{
+    font-size: 1.2rem;
+}
+
+/* End Style article page */
+
+/* Start Media Query for article page */
+
+@media screen and (max-width: 768px) {
+    html{
+        font-size: 12px;
+    }
+    .article-image{
+        width: 87%;
+    }
+}
+
+@media screen and (max-width: 425px){
+    html{
+        font-size: 8px;
+    }
+
+    .article-heading{
+        width: 91%;
+    }
+
+    .article-paragraph{
+        font-size: 1.6rem;
+        width: 89%;
+        line-height: 30px;
+    }
+
+    .article-related{
+        font-size: 1.6rem;
+        line-height: 25px;
+    }
+
+
+}
+
+@media screen and (max-width: 320px){
+    html{
+        font-size: 6px;
+    }
+}
+
+/* End Media Query for article page */
