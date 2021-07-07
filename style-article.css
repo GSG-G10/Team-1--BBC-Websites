@@ -14,7 +14,7 @@
 
 
 .article-container{
-    height: 260vh;
+    height: 370vh;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -80,6 +80,11 @@ article-image{
     html{
         font-size: 12px;
     }
+
+    body{
+        margin-top: -19%;
+    }
+
     .article-image{
         width: 87%;
     }
@@ -88,6 +93,10 @@ article-image{
 @media screen and (max-width: 425px){
     html{
         font-size: 8px;
+    }
+
+    body{
+        margin-top: -33%;
     }
 
     .article-heading{
@@ -103,6 +112,10 @@ article-image{
     .article-related{
         font-size: 1.6rem;
         line-height: 25px;
+    }
+
+    .article-image{
+        margin-top: -39%;
     }
 
 
