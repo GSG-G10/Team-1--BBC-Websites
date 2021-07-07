@@ -113,7 +113,6 @@ html {
 
 
 /*------------- NAV BAR RESPOSIVE ------------*/
-
 /*- small tablet to big tablet -*/
 @media (max-width: 1024px) {
     
@@ -126,7 +125,6 @@ html {
         font-size: 1.3rem;
     }
 }
-
 /*- small phone to 768 -*/
 @media (max-width: 768px) {
     .logo-container {
@@ -134,7 +132,6 @@ html {
         height: 3.125rem;
         margin-left: 1.25rem;
     }
-
     #ulMob {
         margin-top: 7rem; 
     }
@@ -150,7 +147,6 @@ html {
         margin-top: 0 !important;
 
     }
-
     .link{
         border-bottom: 2px solid #b5d2ec;
 
@@ -158,21 +154,16 @@ html {
     .mobile-nav-icon{
         display: block;
     }
-
     .active {
         display: flex !important;
     }
-
     .header-nav{
         height: 3.75rem;
     }
-
     .active-nav {
         height: 100%;
         align-items: flex-start;
     }
-
-
 }
 
 /***********END NAVBAR ----------------*/
