@@ -2,7 +2,6 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-    outline: 1px dotted red;
 }
 
 :root {
@@ -97,7 +96,6 @@ html {
 .section-main{
     width: 100vw;
     height: 37.5rem;
-    background-color: aquamarine;
 }
 
 .mobile-nav-icon {
