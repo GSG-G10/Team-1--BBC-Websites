@@ -109,6 +109,11 @@ a{
     html{
         font-size: 13px;
     }
+    .sub-sections{
+        height: 120vh;
+    }
+
+
     .article{
         width: 80%;
         height: 26vh;
@@ -129,26 +134,36 @@ a{
 
 
 
-.article img{
-    width: 90%;
-    height: 26vh;
-    border-radius: 2%;
-}
-.title{
-    width: 80%;
-    height: 26vh;
-    border-radius: 2%;
-}
+    .article img{
+        width: 100%;
+        height: 26vh;
+        border-radius: 2%;
+    }
+    .title{
+        width: 80%;
+        height: 26vh;
+        border-radius: 2%;
+    }
 
 
 
 }
-@media screen and (max-width: 600px) {
+/* @media screen and (max-width: 600px) {
     html{
         font-size: 12px;
     }
+    .title{
+        width: 80%;
+        height: 26vh;
+        border-radius: 2%;
+    }
 
-}
+    .article{
+    
+        height: 20vh;
+
+    }
+} */
 
 
 
