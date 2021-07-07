@@ -1,8 +1,7 @@
-# Team-1--BBC-Website
-# Team-1--BBC-Website
+
 <h1>Handala news website</h1>
 
-**You can see our live link**
+**You can see our live link https://gsg-g10.github.io/Team-1--News-Website/**
 
 <h2>Problem</h2>
 
