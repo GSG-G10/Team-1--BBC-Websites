@@ -14,7 +14,7 @@
 
 
 .article-container{
-    height: 200vh;
+    height: 260vh;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -67,6 +67,11 @@ article-image{
     font-size: 1.2rem;
 }
 
+#disqus_thread{
+    width: 80%;
+    margin-top: 4%;
+}
+
 /* End Style article page */
 
 /* Start Media Query for article page */
@@ -110,3 +115,4 @@ article-image{
 }
 
 /* End Media Query for article page */
+
