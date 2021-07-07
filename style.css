@@ -22,8 +22,18 @@ html {
     display: flex;
 }
 
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
 
 /*------------- NAV BAR STYLING ------------*/
+
+header {
+    position: relative;
+}
 
 .header-nav {
     position: fixed;
@@ -32,12 +42,11 @@ html {
     right: 0;
     z-index: 99;
     transition: background-color 250ms ease-in;
-
-    width: 100vw;
+    width: 100%;
     background-color: var(--primary-color);
     justify-content: space-between;
     align-items: center;
-    height: 5.625rem;
+    height: 5rem;
 
 }
 
@@ -179,4 +188,51 @@ html {
 
 /***********END NAVBAR ----------------*/
 
+
+/***********MAIN SECTION --------------*/
+
+.section-main{ 
+    width: 85%;
+    height: 87vh;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 5rem;
+}
+
+.subsection{
+    height: 70vh;
+}
+.subsection-latest {
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+    background-color: aqua;
+}
+
+.subsection-most {
+    width: 25%;
+    background-color: #011b32;
+}
+
+.big-new{
+    width: 62%;
+    background-color: blueviolet;
+    height: 100%;
+}
+
+.small-new {
+    width: 35%;
+    height: 100%;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+
+}
+
+.new-img{
+    background-color: yellow;
+    width: 100%;
+    height: 45%;
+
+}
 
