@@ -14,7 +14,7 @@
 }
 
 .article-container {
-    height: 421vh;
+    height: 2000px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -109,11 +109,17 @@ article-image {
         font-size: 1.6rem;
         line-height: 25px;
     }
+    .article-container {
+        height: 1690px;
+    }
 }
 
 @media screen and (max-width: 320px) {
     html {
         font-size: 6px;
+    }
+    .article-container {
+        height: 1465px;
     }
 }
 
