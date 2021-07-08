@@ -83,25 +83,6 @@
     </section>  
 
    
-      
-    <script>
-        
-        var disqus_config = function () {
-        this.page.url = 'http://127.0.0.1:5500/article.html';  // Replace PAGE_URL with your page's canonical URL variable
-        this.page.identifier = "#ttest"; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
-    
-    };
-        
-        (function() { // DON'T EDIT BELOW THIS LINE
-        var d = document, s = d.createElement('script');
-        s.src = 'https://handla.disqus.com/embed.js';
-        s.setAttribute('data-timestamp', +new Date());
-        (d.head || d.body).appendChild(s);
-        })();
-    </script>
-    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-    
-
    <!-- End article main section -->
 
    <!-- Start footer section -->
@@ -141,6 +122,26 @@
     </div>
 
 </footer>
+
+
+<!-- Disqus feature to let the user comment on the article instead of using just fixed text box -->
+
+<script>
+        
+    var disqus_config = function () {
+    this.page.url = 'http://127.0.0.1:5500/article.html';  // Replace PAGE_URL with your page's canonical URL variable
+    this.page.identifier = "#ttest"; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+
+};
+    
+    (function() { // DON'T EDIT BELOW THIS LINE
+    var d = document, s = d.createElement('script');
+    s.src = 'https://handla.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 
    <!-- End footer section -->
    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous">
