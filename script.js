@@ -1,6 +1,6 @@
-let navMobile = document.getElementById("nav-mobile");
-let ulMobile = document.getElementById("ulMob");
-let allNav = document.getElementById("active-nave")
+const navMobile = document.getElementById("nav-mobile");
+const ulMobile = document.getElementById("ulMob");
+const allNav = document.getElementById("active-nave")
 
 navMobile.onclick = function(){
     ulMobile.classList.toggle("active");
