@@ -196,7 +196,7 @@ body {
 .big-new {
     height: 21.875rem;
     width: 47%;
-    background-image: url("./images/3.jpg");
+    background-image: url("./imges/3a.jpg");
     background-size: cover;
     align-items: flex-end;
 }
@@ -221,12 +221,12 @@ body {
 }
 
 .container-for-img .photo1 {
-    background-image: url("./images/4.jpeg");
+    background-image: url("./imges/4a.jpeg");
     background-size: cover;
 }
 
 .container-for-img .photo2 {
-    background-image: url("./images/5.png");
+    background-image: url("./imges/5a.png");
     background-size: cover;
 }
 
